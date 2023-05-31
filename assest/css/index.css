@@ -1,0 +1,416 @@
+.back-to-top {
+  opacity: 0;
+  visibility: hidden;
+  right: 25px;
+  bottom: 25px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px 1px #0d0d12;
+  z-index: 9999999;
+  transition: all 200ms linear;
+}
+.back-to-top.active {
+  opacity: 1;
+  visibility: visible;
+}
+.back-to-top:hover {
+  box-shadow: inset 0px 0px 7px 1px #0d0d12;
+}
+
+nav.navbar .navbar-brand img {
+  height: 35px;
+}
+nav.navbar .nav-item:hover {
+  background-color: rgb(241, 241, 241);
+  border-radius: 7px;
+}
+nav.navbar .nav-link {
+  font-weight: 600;
+  color: #282828;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 992px) {
+  nav.navbar .btn-MyAvada {
+    display: none !important;
+  }
+}
+nav.navbar .btn-MyAvada .moved-one {
+  transform: translateX(-50px);
+  transition: 0.2s;
+}
+nav.navbar .btn-MyAvada .static-one {
+  transform: translateX(-13px);
+  transition: 0.2s;
+}
+nav.navbar .btn-MyAvada:hover .moved-one {
+  transform: translateX(10px);
+}
+nav.navbar .btn-MyAvada:hover .static-one {
+  transform: translateX(50px);
+}
+
+header.header .content-header {
+  width: 90%;
+}
+header.header .content-header h1 {
+  font-size: 60px;
+}
+@media (max-width: 440px) {
+  header.header .content-header h1 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header.header .content-header h1 {
+    font-size: 65px;
+  }
+}
+header.header .content-header a {
+  letter-spacing: 1px;
+}
+@media (max-width: 440px) {
+  header.header .content-header a {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}
+header.header .content-header a .moved-one {
+  transform: translateX(-50px);
+  transition: 0.2s;
+}
+header.header .content-header a .static-one {
+  transform: translateX(-13px);
+  transition: 0.2s;
+}
+header.header .content-header a:hover .moved-one {
+  transform: translateX(10px);
+}
+header.header .content-header a:hover .static-one {
+  transform: translateX(50px);
+}
+
+.label .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: none;
+}
+.label img {
+  width: 200px;
+  height: 200px;
+}
+.label .yeallow .card {
+  background-color: #ffe979;
+  transition: 0.5s;
+  position: relative;
+  height: 100%;
+}
+.label .yeallow .card:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+.label .yeallow .card:hover .overlay {
+  display: block;
+}
+.label .yeallow a {
+  background-color: #c1ac13;
+  color: white;
+}
+.label .green .card {
+  background-color: #b7f598;
+  transition: 0.5s;
+  height: 100%;
+  position: relative;
+}
+.label .green .card:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+.label .green .card:hover .overlay {
+  display: block;
+}
+.label .green a {
+  color: white;
+  background-color: #53a12b;
+}
+.label .blue .card {
+  background-color: #7ed5f0;
+  transition: 0.5s;
+  position: relative;
+  height: 100%;
+}
+.label .blue .card:hover {
+  transform: translateY(-12px) scale(1.03);
+}
+.label .blue .card:hover .overlay {
+  display: block;
+}
+.label .blue a {
+  color: white;
+  background-color: #38a2c2;
+}
+
+.design h2 {
+  font-size: 50px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .design h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .design h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .design h2 {
+    font-size: 25px;
+  }
+}
+.design button.nav-link {
+  text-align: start;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+.design button.nav-link:hover, .design button.nav-link.active {
+  background-color: #e8e8e8;
+  color: black;
+}
+.design .tab-pane {
+  display: none;
+}
+.design .tab-pane.active {
+  display: block;
+}
+@media (min-width: 992px) {
+  .design .nav-pills .tab-pane {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .design .tab-content .tab-pane {
+    display: none;
+  }
+}
+
+.WebsiteBuilder h2 {
+  font-size: 50px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .WebsiteBuilder h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .WebsiteBuilder h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .WebsiteBuilder h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 576px) {
+  .WebsiteBuilder h2 + p {
+    font-size: 15px;
+  }
+}
+.WebsiteBuilder a {
+  width: 200px;
+  letter-spacing: 1px;
+}
+@media (max-width: 440px) {
+  .WebsiteBuilder a {
+    width: 135px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}
+.WebsiteBuilder a .moved-one {
+  transform: translateX(-50px);
+  transition: 0.2s;
+}
+.WebsiteBuilder a .static-one {
+  transform: translateX(-13px);
+  transition: 0.2s;
+}
+.WebsiteBuilder a:hover .moved-one {
+  transform: translateX(10px);
+}
+.WebsiteBuilder a:hover .static-one {
+  transform: translateX(50px);
+}
+
+.WebsiteOwners {
+  background: url(../img/shape-bg-9.svg) no-repeat cover;
+  background-attachment: fixed;
+}
+.WebsiteOwners h2 {
+  font-size: 50px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .WebsiteOwners h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .WebsiteOwners h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .WebsiteOwners h2 {
+    font-size: 25px;
+  }
+}
+.WebsiteOwners img {
+  height: 75px;
+}
+
+.testimonial .img_testimonial {
+  background-image: url(../img/testimonial.png);
+  background-size: cover;
+  background-position: 45%;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 992px) {
+  .testimonial .img_testimonial {
+    height: 450px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial .img_testimonial {
+    height: 400px;
+  }
+}
+@media (max-width: 576px) {
+  .testimonial .img_testimonial {
+    height: 250px;
+  }
+}
+.testimonial .content {
+  background-color: #ffe979;
+}
+.testimonial .inner_content {
+  width: 80%;
+}
+.testimonial .logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.fusion h2 {
+  font-size: 50px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .fusion h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .fusion h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .fusion h2 {
+    font-size: 25px;
+  }
+}
+.fusion .fusion-panel {
+  border-bottom: 1px solid #f1f1f1;
+}
+.fusion .fusion-panel:hover {
+  border-bottom: 1px solid #dfdfdf;
+}
+.fusion .fusion-panel h3.head-fusion-panel {
+  cursor: pointer;
+}
+.fusion .fusion-panel h3.head-fusion-panel svg {
+  transform: rotate(90deg);
+}
+.fusion .fusion-panel h3.head-fusion-panel svg.rotated {
+  transform: rotate(180deg);
+}
+
+.BuildSuccessful .container {
+  background-color: #b7f598;
+  bottom: -50px;
+}
+.BuildSuccessful h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .BuildSuccessful h2 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .BuildSuccessful h2 {
+    font-size: 34px;
+  }
+}
+@media (max-width: 576px) {
+  .BuildSuccessful h2 {
+    font-size: 25px;
+  }
+}
+.BuildSuccessful h2 + p {
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .BuildSuccessful h2 + p {
+    font-size: 15px;
+  }
+}
+.BuildSuccessful a {
+  letter-spacing: 1px;
+}
+@media (max-width: 440px) {
+  .BuildSuccessful a {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+  }
+}
+.BuildSuccessful a .moved-one {
+  transform: translateX(-50px);
+  transition: 0.2s;
+}
+.BuildSuccessful a .static-one {
+  transform: translateX(-13px);
+  transition: 0.2s;
+}
+.BuildSuccessful a:hover .moved-one {
+  transform: translateX(10px);
+}
+.BuildSuccessful a:hover .static-one {
+  transform: translateX(50px);
+}
+
+footer.footer input:focus {
+  box-shadow: none;
+}
+footer.footer .copyRight p {
+  font-size: 13px;
+}
+footer.footer .row li {
+  margin: 5px 0;
+}
+footer.footer .row li a {
+  color: white;
+  transition: 0.3s;
+  font-weight: 600;
+  text-decoration: none;
+}
+footer.footer .row li a:hover {
+  color: #b7f598;
+}
+footer.footer .row p {
+  font: 14px;
+}/*# sourceMappingURL=index.css.map */
